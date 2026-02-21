@@ -15,8 +15,8 @@ function Login() {
   } = useForm({
     mode: "onChange",
     defaultValues: {
-      username: "piggyReact@hexschool.com",
-      password: "piggyReact",
+      username: "",
+      password: "",
     },
   });
 
